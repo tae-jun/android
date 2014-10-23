@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.preference.PreferenceManager.OnActivityResultListener"/>
+<fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.R.layout"/>
+<fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.MainActivity"/>
+<fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.R.id"/>
+<fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.ListActivity"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.ImageActivity"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.R.drawable"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="android.content.pm.LabeledIntent"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+</qualifiedTypeNameHistroy>
