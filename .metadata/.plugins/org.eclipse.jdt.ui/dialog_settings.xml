@@ -33,6 +33,8 @@
 	<section name="OverrideMethodDialog">
 		<item value="true" key="showtypes"/>
 	</section>
+	<section name="RenameInformationPopup">
+	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>

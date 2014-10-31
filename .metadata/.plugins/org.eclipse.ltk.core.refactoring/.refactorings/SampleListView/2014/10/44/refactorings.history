@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from project &apos;SampleListView&apos;&#x0D;&#x0A;- Original project: &apos;SampleListView&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     icon01.png&#x0D;&#x0A;     icon02.png&#x0D;&#x0A;     icon03.png&#x0D;&#x0A;     icon04.png&#x0D;&#x0A;     icon05.png&#x0D;&#x0A;     icon06.png" description="Delete elements" element1="res/drawable/icon02.png" element2="res/drawable/icon01.png" element3="res/drawable/icon05.png" element4="res/drawable/icon03.png" element5="res/drawable/icon04.png" element6="res/drawable/icon06.png" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="6" stamp="1414724179046" subPackages="false" version="1.0"/>
+</session>
