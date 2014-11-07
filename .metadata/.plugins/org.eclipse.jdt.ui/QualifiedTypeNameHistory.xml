@@ -5,9 +5,7 @@
 <fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.MainActivity"/>
 <fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.R.id"/>
 <fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.ListActivity"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
 <fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.ImageActivity"/>
-<fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="com.example.h1024_mulitipleactivities.R.drawable"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="android.content.pm.LabeledIntent"/>
@@ -18,7 +16,6 @@
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
 <fullyQualifiedTypeName name="android.app.AlertDialog"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="StaticTest"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.String"/>
 <fullyQualifiedTypeName name="org.androidtown.ui.listview.IconTextItem"/>
@@ -26,4 +23,26 @@
 <fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="android.net.Uri"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="android.widget.Adapter"/>
+<fullyQualifiedTypeName name="android.widget.SpinnerAdapter"/>
+<fullyQualifiedTypeName name="android.accounts.OnAccountsUpdateListener"/>
+<fullyQualifiedTypeName name="com.example.i1107_spinner.R.layout"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.SpinnerArtist"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.R.drawable"/>
+<fullyQualifiedTypeName name="android.widget.Spinner"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.Artist"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.ListAdapter"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.AlbumListView"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.Album"/>
 </qualifiedTypeNameHistroy>

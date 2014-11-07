@@ -1,0 +1,19 @@
+package com.example.h1107_spinner;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Spinner;
+
+public class MainActivity extends Activity {
+	Artist johnMayer = new Artist("John Mayer");
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        SpinnerArtist spin = new SpinnerArtist((Spinner)findViewById(R.id.spin));
+        
+        
+    }
+}
