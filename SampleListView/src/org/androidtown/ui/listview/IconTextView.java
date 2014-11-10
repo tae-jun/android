@@ -11,7 +11,7 @@ import android.widget.TextView;
  * 아이템으로 보여줄 뷰 정의
  * 
  * @author Mike
- *
+ * 
  */
 public class IconTextView extends LinearLayout {
 
@@ -39,7 +39,8 @@ public class IconTextView extends LinearLayout {
 		super(context);
 
 		// Layout Inflation
-		LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		LayoutInflater inflater = (LayoutInflater) context
+				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		inflater.inflate(R.layout.listitem, this, true);
 
 		// Set Icon
@@ -62,7 +63,7 @@ public class IconTextView extends LinearLayout {
 
 	/**
 	 * set Text
-	 *
+	 * 
 	 * @param index
 	 * @param data
 	 */
@@ -80,7 +81,7 @@ public class IconTextView extends LinearLayout {
 
 	/**
 	 * set Icon
-	 *
+	 * 
 	 * @param icon
 	 */
 	public void setIcon(Drawable icon) {

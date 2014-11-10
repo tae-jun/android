@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=h1107_spinner/C:\/adt\/sdk\/platforms\/android-17\/android.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1409882348296"/>
-<typeInfo handle="=h1107_spinner/C:\/adt\/sdk\/platforms\/android-17\/android.jar&lt;android.widget(Spinner.class[Spinner" modifiers="33" timestamp="1409882348296"/>
-<typeInfo handle="=h1107_spinner/C:\/adt\/sdk\/platforms\/android-17\/android.jar&lt;android.widget(BaseAdapter.class[BaseAdapter" modifiers="1057" timestamp="1409882348296"/>
-<typeInfo handle="=h1107_spinner/C:\/adt\/sdk\/platforms\/android-17\/android.jar&lt;android.widget(LinearLayout.class[LinearLayout" modifiers="33" timestamp="1409882348296"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

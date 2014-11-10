@@ -3,7 +3,6 @@ package com.example.h1107_spinner;
 import java.util.ArrayList;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -25,9 +24,7 @@ public class AlbumListView extends LinearLayout {
 		
 		// Set icon
 		cover = (ImageView)findViewById(R.id.liCover);
-		
-		cover.setImageDrawable(getResources().getDrawable(album.getCover()));
-		
+		cover.setImageDrawable(album.)
 	}
 
 }

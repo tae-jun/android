@@ -25,8 +25,7 @@ public class AlbumListView extends LinearLayout {
 		
 		// Set icon
 		cover = (ImageView)findViewById(R.id.liCover);
-		
-		cover.setImageDrawable(getResources().getDrawable(album.getCover()));
+		cover.setImageDrawable();
 		
 	}
 

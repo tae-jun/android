@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="android.accounts.OnAccountsUpdateListener"/>
 <fullyQualifiedTypeName name="com.example.i1107_spinner.R.layout"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.SpinnerArtist"/>
-<fullyQualifiedTypeName name="com.example.h1107_spinner.R.drawable"/>
 <fullyQualifiedTypeName name="android.widget.Spinner"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
@@ -39,10 +38,15 @@
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.R.layout"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.ListAdapter"/>
-<fullyQualifiedTypeName name="android.content.Context"/>
-<fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.AlbumListView"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.Album"/>
+<fullyQualifiedTypeName name="android.view.LayoutInflater"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.R.id"/>
+<fullyQualifiedTypeName name="android.graphics.drawable.Drawable"/>
+<fullyQualifiedTypeName name="com.example.h1107_spinner.R.drawable"/>
 </qualifiedTypeNameHistroy>
