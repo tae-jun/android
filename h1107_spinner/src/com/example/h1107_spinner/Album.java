@@ -1,6 +1,9 @@
 package com.example.h1107_spinner;
 
-public class Album {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Album implements Serializable {
 	private int cover;
 	private String name;
 	private int year;
@@ -21,8 +24,8 @@ public class Album {
 		return this.name;
 	}
 
-	public int getYear() {
-		return this.year;
+	public String getYear() {
+		return String.valueOf(year);
 	}
 
 	public String[] getSongs() {

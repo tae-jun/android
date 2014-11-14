@@ -15,10 +15,10 @@ public class Artist {
 		this.albums.add(album);
 	}
 
-	public ArrayList<Album> getAlbums(){
+	public ArrayList<Album> getAlbums() {
 		return this.albums;
 	}
-	
+
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub

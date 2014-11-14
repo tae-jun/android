@@ -10,13 +10,12 @@ public class AlbumListAdapter extends BaseAdapter {
 
 	private Context context;
 
-	private ArrayList<Album> albums = new ArrayList<Album>();
+	private ArrayList<Album> albums;
 
-	public AlbumListAdapter(Context context) {
+	public AlbumListAdapter(Context context, ArrayList<Album> albums) {
 		this.context = context;
+		this.albums = albums;
 	}
-	
-	
 
 	@Override
 	public int getCount() {
@@ -25,7 +24,7 @@ public class AlbumListAdapter extends BaseAdapter {
 	}
 
 	@Override
-	public Object getItem(int position) {
+	public Album getItem(int position) {
 		// TODO Auto-generated method stub
 		return this.albums.get(position);
 	}
@@ -39,16 +38,13 @@ public class AlbumListAdapter extends BaseAdapter {
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		AlbumListView itemView;
-//		if (convertView == null) {
-//			itemView = new IconTextView(mContext, mItems.get(position));
-//		} else {
-//			itemView = (IconTextView) convertView;
-//			
-//			itemView.setIcon(mItems.get(position).getIcon());
-//			itemView.setText(0, mItems.get(position).getData(0));
-//			itemView.setText(1, mItems.get(position).getData(1));
-//			itemView.setText(2, mItems.get(position).getData(2));
-//		}
+		Album album = albums.get(position);
+		if (convertView == null) {
+			itemView = new AlbumListView(context, album);
+		} else {
+			itemView = (AlbumListView) convertView;
+			itemView.setAlbum(album);
+		}
 
 		return itemView;
 	}

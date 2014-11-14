@@ -1,11 +1,12 @@
 package com.example.h1107_spinner;
 
 import java.util.ArrayList;
-
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemSelectedListener;
@@ -23,6 +24,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener,
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main);
 
 		// Find views
@@ -53,6 +55,16 @@ public class MainActivity extends Activity implements OnItemSelectedListener,
 		// Add John Mayer
 		artists.add(johnMayer);
 
+		// Create Avicii
+		Artist Avicii = new Artist("Avicii");
+
+		// True
+		String[] trueSongs = { "Wake Me Up", "You Make Me" };
+		Album tru = new Album(R.drawable.avicii_true, "True", 2013, trueSongs);
+		Avicii.addAlbum(tru);
+		// Add Avicii
+		artists.add(Avicii);
+
 		ArrayAdapter<Artist> adapter = new ArrayAdapter<Artist>(this,
 				android.R.layout.simple_spinner_item, artists);
 
@@ -68,7 +80,22 @@ public class MainActivity extends Activity implements OnItemSelectedListener,
 		Log.d("jun", artists.get(position).toString());
 		Artist artist = artists.get(position);
 
-		ArrayAdapter<Album> adapter = new ArrayAdapter<Album>(this, );
+		final AlbumListAdapter adapter = new AlbumListAdapter(this,
+				artist.getAlbums());
+
+		list.setAdapter(adapter);
+
+		list.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				Intent intent = new Intent(MainActivity.this,
+						DetailActivity.class);
+				intent.putExtra("album", adapter.getItem(position));
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override

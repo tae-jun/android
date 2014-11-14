@@ -1,0 +1,37 @@
+package com.example.h1107_spinner;
+
+import org.w3c.dom.Text;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class DetailActivity extends Activity {
+	ImageView img;
+	TextView txtName;
+	TextView txtYear;
+	TextView txtSong;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_detail);
+
+		Intent intent = getIntent();
+		Album album = (Album) intent.getSerializableExtra("album");
+
+		img = (ImageView) findViewById(R.id.alImg);
+		txt = (TextView) findViewById(R.id.alTxtDetail);
+
+		img.setImageDrawable(getResources().getDrawable(album.getCover()));
+
+		String msg = album.getName() + "\n" + album.getYear() + "\n";
+		for (String song : album.getSongs()) {
+			msg += song + "\n";
+		}
+		txt.setText(msg);
+	}
+}
