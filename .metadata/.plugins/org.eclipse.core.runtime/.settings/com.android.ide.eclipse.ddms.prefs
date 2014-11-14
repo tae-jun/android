@@ -42,6 +42,7 @@ logcat.view.colsize.TID=58
 logcat.view.colsize.Tag=189
 logcat.view.colsize.Text=564
 logcat.view.colsize.Time=150
+logcat.view.filters.list=name\: 'test', tag\: 'Test', text\: '', pid\: '', app\: '', level\: 'verbose', 
 networkPanel.rxBytes=98
 networkPanel.rxPackets=98
 networkPanel.title=238
