@@ -10,9 +10,7 @@
 <fullyQualifiedTypeName name="android.content.pm.LabeledIntent"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="com.example.i1024_dialog.BuildConfig"/>
-<fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="com.example.i1024_dialog.R.id"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
 <fullyQualifiedTypeName name="android.app.AlertDialog"/>
 <fullyQualifiedTypeName name="StaticTest"/>
@@ -27,7 +25,6 @@
 <fullyQualifiedTypeName name="com.example.h1107_spinner.SpinnerArtist"/>
 <fullyQualifiedTypeName name="android.widget.Spinner"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
 <fullyQualifiedTypeName name="android.widget.ListView"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.ListAdapter"/>
 <fullyQualifiedTypeName name="android.view.LayoutInflater"/>
@@ -50,9 +47,17 @@
 <fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Text"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="android.view.Window"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.Artist"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.Album"/>
 <fullyQualifiedTypeName name="com.example.h1107_spinner.R.drawable"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.content.ContentValues"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.view.Window"/>
+<fullyQualifiedTypeName name="android.database.DatabaseUtils"/>
+<fullyQualifiedTypeName name="com.example.i1114_db_cursor.MainActivity.DatabaseHelper"/>
 </qualifiedTypeNameHistroy>

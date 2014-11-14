@@ -1,8 +1,0 @@
-package com.example.h1107_spinner;
-
-public class Spinner extends android.widget.Spinner {
-	public Spinner() {
-		// TODO Auto-generated constructor stub
-		super(getContext());
-	}
-}
