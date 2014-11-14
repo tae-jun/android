@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=appcompat_v7,h1024_MulitipleActivities,i1024_Dialog,SampleDialog,SampleListView,static_test,i1031_ListView,h1107_spinner,i1107_spinner
+task-tag-projects-already-scanned=appcompat_v7,h1024_MulitipleActivities,i1024_Dialog,SampleDialog,SampleListView,static_test,i1031_ListView,h1107_spinner,i1107_spinner,i1114_db,i1114_db_cursor

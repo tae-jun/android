@@ -1,9 +1,0 @@
-package com.example.h1107_spinner;
-
-public class Artist {
-	String name;
-	
-	public Artist(int cover, String name, int year, String[] songs) {
-		this.name = name;
-	}
-}
