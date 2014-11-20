@@ -1,7 +1,0 @@
-package com.example.h1107_spinner;
-
-import android.widget.LinearLayout;
-
-public class AlbumListView extends LinearLayout {
-
-}

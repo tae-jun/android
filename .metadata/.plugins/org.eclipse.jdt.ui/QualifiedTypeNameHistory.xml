@@ -57,7 +57,7 @@
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.content.ContentValues"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
-<fullyQualifiedTypeName name="android.view.Window"/>
 <fullyQualifiedTypeName name="android.database.DatabaseUtils"/>
 <fullyQualifiedTypeName name="com.example.i1114_db_cursor.MainActivity.DatabaseHelper"/>
+<fullyQualifiedTypeName name="android.view.Window"/>
 </qualifiedTypeNameHistroy>

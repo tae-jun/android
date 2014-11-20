@@ -56,6 +56,7 @@ public class MainActivity extends Activity {
 	}
 
 	private void createDatabase(String name) {
+		println("2012440037 Tae-Jun Kim");
 		println("creating database [" + name + "].");
 
 		try {
